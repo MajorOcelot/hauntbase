@@ -17,3 +17,27 @@ body {
 .wrapper {
     padding: 1rem;
 }
+
+.header-wrapper {
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #00ff66;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: hsl(144, 100%, 37%);
+}
