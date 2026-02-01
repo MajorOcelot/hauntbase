@@ -65,3 +65,21 @@ nav > ul > li {
     text-decoration: underline;
     color: hsl(144, 100%, 37%);
 }
+
+.index-main {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.features-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.features-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style-type: none;
+    padding: 0;
+}
